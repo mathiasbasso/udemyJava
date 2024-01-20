@@ -1,0 +1,5 @@
+Neste exercicio de fixação, criei as opções de conversao de dinheiro com os
+impostos ja adicionados.
+
+Classe CurrencyConverter é responsavel por setar o valor do dollar e euro e fazer a operação
+de conversao. apos isso o valor final é calculado no main da pasta deste exercício.

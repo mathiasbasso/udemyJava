@@ -1,0 +1,9 @@
+
+Sobrecarga -
+    é um recurso que uma classe possui de oferecer mais de uma operação com o mesmo nome,
+    porem com diferentes listas de paramentros.
+
+    - atividade da pasta -  criar um construtor opcional, o qual recebe
+    apenas com e preco do prodeuto. A quantidade em estoque deste novo
+    produto, por padrao, devera entao ser iniciada com o valor zero
+            nota - é possivel tambem incluir um construtor padrao.

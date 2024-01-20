@@ -1,0 +1,37 @@
+é uma operacao especial da classe, que executa no momento da instanciacao do objeto
+
+Usos comuns:
+       - iniciar valores dos atributos
+       - permitir ou obrigar que o objeto receba dados/ dependencias no momento de sua
+       instanciacao (injecao de dependencia)
+
+Se um contrutor customizado nao for especificado, a classe disponibiliza o construtor
+padrão:
+     Product p = new Product();
+
+é possível especificar mais de um construtor na mesma classe(sobrecarga)
+
+----------------------------------------------
+
+this - referencia para o proprio objeto
+
+
+   Product product = new Product(TV, 1500.00, 0);
+
+   public Product(String name, double price, int quantity){
+            this.name = name;
+            this.price = price;
+            this.quantity = quantity;
+
+   MEMÓRIA ---------
+        Objeto Product(acessa os campos do objeto)
+         -------->  "TV" = this.name
+                     1500.00 = this.price
+                     0 = this.quantity
+
+
+        Escopo do Construtor (sem o this, dá prioridade ao paramentro)
+         public Product(String name, double price, int quantity). variavel local do construtor
+         --------> TV= name
+                   1500.00 = price
+                   0 = quantity
